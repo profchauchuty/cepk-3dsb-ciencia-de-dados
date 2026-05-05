@@ -1,1 +1,26 @@
-# cepk-3dsb-ciencia-de-dados
+# 📘 Ciência de Dados
+
+**Turma:** 3ª Ano DSB – Manhã – CEPK  
+**Professor:** Cesar Mauricio Chauchuty  
+**Curso:** Técnico em Desenvolvimento de Sistemas  
+**Instituição:** Colégio Estadual Presidente Kennedy
+
+---
+
+## 🧪 Conteúdos
+
+| Aula                                   | Link                                                                 |
+|----------------------------------------|----------------------------------------------------------------------|
+| Ciência de Dados: Introdução           |                                                                      |
+---
+
+## 🛠 Ferramentas
+
+| Ferramenta        | Finalidade                                    | Link                             |
+|-------------------|-----------------------------------------------|------------------------------------|
+| Google Sheets     | Planilhas e Gráficos                          | [Acessar](https://docs.google.com/)  |
+
+
+---
+
+> 📱 **Dica:** Participe ativamente das aulas práticas, organize seu cronograma de estudos e revise sempre os conteúdos!
