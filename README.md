@@ -11,7 +11,11 @@
 
 | Aula                                   | Link                                                                 |
 |----------------------------------------|----------------------------------------------------------------------|
-| Ciência de Dados: Introdução           |                                                                      |
+| Ciência de Dados: Introdução           | [Acessar](https://aws.amazon.com/pt/what-is/data-science/)           |
+| Análise Descritiva                     |                                                                      |
+| Análise Diagnóstica                    |                                                                      |
+| Análise Preditiva                      |                                                                      |
+| Análise Pres                           |                                                                      |
 ---
 
 ## 🛠 Ferramentas
