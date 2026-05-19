@@ -293,5 +293,7 @@ A análise mostra queda nas vendas, mas não explica sua causa.
 - apoia decisões
 
 > Fontes:
+> 
 > https://aws.amazon.com/pt/what-is/data-science/
+> 
 > https://www.matera.com/br/blog/analise-descritiva/
