@@ -2,60 +2,76 @@
 
 ## 1. Conceito
 
-A **Análise Descritiva** é o tipo de análise de dados responsável por identificar e apresentar **o que aconteceu** ou **o que está acontecendo** em determinado contexto.
+A **análise descritiva** analisa dados para gerar insights sobre **o que aconteceu** ou **o que está acontecendo** em determinado contexto.
 
-Ela transforma dados brutos em informações compreensíveis, permitindo visualizar padrões, tendências e comportamentos.
+Seu foco é transformar dados brutos em informações compreensíveis, permitindo identificar:
+- padrões
+- tendências
+- comportamentos
+- aumentos e quedas
+- comparações entre períodos
+
+Ela normalmente utiliza:
+- tabelas
+- gráficos
+- dashboards
+- relatórios
+- indicadores
+
+---
+
+## 2. Exemplo
+
+Um serviço de reservas de voos registra diariamente:
+
+| Data | Reservas | Cancelamentos |
+|---|---|---|
+| 01/03 | 120 | 5 |
+| 02/03 | 180 | 7 |
+| 03/03 | 95 | 12 |
+| ... | ... | ... |
+
+Após analisar os dados, a empresa identifica:
+- picos de reservas em dezembro
+- horários com maior movimento
+- meses de maior desempenho
+- períodos com mais cancelamentos
+
+Nesse caso, a empresa está realizando uma análise descritiva.
+
+---
+
+# 3. Objetivos
+
+| Objetivo | Exemplo |
+|---|---|
+| Resumir dados | calcular médias e totais |
+| Organizar informações | criar tabelas e gráficos |
+| Facilitar interpretação | visualizar crescimento de vendas |
+| Identificar tendências | perceber aumento de clientes |
+| Apoiar decisões | aumentar estoque de produtos |
+
+---
+
+## 3.1 Resumir Dados
+
+Grandes quantidades de dados são transformadas em informações menores e mais úteis.
 
 ### Exemplo
 
-Uma escola registra diariamente:
-
-- quantidade de alunos presentes
-- faltas
-- notas
-- atrasos
-
-Após analisar os dados, a escola percebe que:
-
-- sexta-feira possui maior número de faltas
-- a Turma A possui melhor média
-- houve aumento nos atrasos no último mês
-
-Nesse caso, a escola está realizando uma análise descritiva.
+| Indicador | Resultado |
+|---|---|
+| Total vendido | R$ 800.000 |
+| Produto mais vendido | Notebook |
+| Média diária | R$ 26.600 |
 
 ---
 
-## 2. Objetivo
+## 3.2 Organizar Informações
 
-Seu principal objetivo é:
+Os dados são estruturados visualmente.
 
-- Resumir dados
-- Organizar informações
-- Facilitar a interpretação
-- Mostrar tendências e comportamentos
-- Apoiar tomadas de decisão
-
----
-
-### 2.1 Resumir Dados
-
-Consiste em transformar muitos dados em informações simples.
-
-#### Exemplo
-
-Ao invés de analisar 10 mil vendas individualmente, uma empresa calcula:
-
-- total de vendas do mês
-- média de vendas diária
-- produto mais vendido
-
----
-
-### 2.2 Organizar Informações
-
-Os dados são organizados em tabelas, gráficos e relatórios.
-
-#### Exemplo
+### Exemplo
 
 | Produto | Quantidade Vendida |
 |---|---|
@@ -65,134 +81,89 @@ Os dados são organizados em tabelas, gráficos e relatórios.
 
 ---
 
-### 2.3 Facilitar a Interpretação
+## 3.3 Facilitar a Interpretação
 
-A análise ajuda pessoas a entenderem rapidamente os dados.
+A visualização dos dados torna a análise mais simples.
 
-#### Exemplo
-
-Um gráfico mostrando crescimento de vendas é mais fácil de interpretar do que milhares de linhas em uma planilha.
-
----
-
-### 2.4 Mostrar Tendências e Comportamentos
-
-Permite identificar padrões ao longo do tempo.
-
-#### Exemplo
-
-Uma loja percebe que:
-
-- as vendas aumentam em dezembro
-- as segundas-feiras possuem menos clientes
-- produtos eletrônicos vendem mais à noite
-
----
-
-### 2.5 Apoiar Tomadas de Decisão
-
-As informações ajudam gestores a decidir ações.
-
-#### Exemplo
-
-Após identificar baixa procura em determinado produto, uma empresa decide interromper sua venda.
-
----
-
-## 3. Características
-
-A análise descritiva normalmente utiliza:
-
-- Tabelas
-- Relatórios
-- Dashboards
-- Indicadores
-- Gráficos
-
-Ela responde perguntas como:
-
-- O que aconteceu?
-- Quantas vendas ocorreram?
-- Qual mês teve maior lucro?
-- Houve aumento ou queda?
-- Qual produto foi mais vendido?
-
----
-
-### 3.1 Tabelas
-
-Organizam dados em linhas e colunas.
-
-#### Exemplo
+### Exemplo
 
 | Mês | Vendas |
 |---|---|
-| Janeiro | 150 |
-| Fevereiro | 180 |
-| Março | 210 |
+| Janeiro | 120 |
+| Fevereiro | 150 |
+| Março | 220 |
+
+Ao transformar esses dados em um gráfico de linhas, fica mais fácil perceber o crescimento das vendas.
 
 ---
 
-### 3.2 Relatórios
+## 3.4 Identificar Tendências
 
-Documentos que resumem informações importantes.
+Permite observar padrões ao longo do tempo.
 
-#### Exemplo
+### Exemplo
 
-Um relatório mensal pode apresentar:
+| Mês | Clientes |
+|---|---|
+| Janeiro | 300 |
+| Fevereiro | 320 |
+| Março | 450 |
 
-- faturamento
-- despesas
-- produtos mais vendidos
-- desempenho da empresa
-
----
-
-### 3.3 Dashboards
-
-Painéis visuais que mostram indicadores em tempo real.
-
-#### Exemplo
-
-Um dashboard de vendas pode mostrar:
-
-- vendas do dia
-- quantidade de clientes
-- lucro mensal
-- metas atingidas
+### Tendência observada
+A quantidade de clientes aumentou continuamente.
 
 ---
 
-### 3.4 Indicadores
+## 3.5 Apoiar Tomadas de Decisão
 
-Métricas utilizadas para acompanhar desempenho.
+As informações auxiliam empresas e gestores.
 
-#### Exemplo
+### Exemplo
 
-- média de notas dos alunos
-- lucro mensal
-- taxa de aprovação
-- número de acessos ao site
+| Produto | Vendas |
+|---|---|
+| Produto A | 500 |
+| Produto B | 40 |
 
----
-
-### 3.5 Gráficos
-
-Representações visuais dos dados.
-
-#### Exemplo
-
-Um gráfico de linhas pode mostrar o crescimento das vendas durante o ano.
+### Decisão
+- aumentar estoque do Produto A
+- reduzir investimento no Produto B
 
 ---
 
-## 4. Principais Formas de Visualização
+# 4. Recursos Utilizados
 
-### 4.1 Gráfico de Barras
+| Recurso | Finalidade |
+|---|---|
+| Tabelas | organizar dados |
+| Relatórios | resumir informações |
+| Dashboards | acompanhar indicadores |
+| Indicadores | medir desempenho |
+| Gráficos | facilitar análise visual |
 
-Usado para comparar valores entre categorias.
+---
 
-#### Exemplo
+# 5. Perguntas Respondidas
+
+A análise descritiva responde perguntas como:
+
+| Pergunta | Resposta possível |
+|---|---|
+| O que aconteceu? | houve queda nas vendas |
+| Quanto aconteceu? | 1.200 produtos vendidos |
+| Quando aconteceu? | em dezembro |
+| Houve crescimento? | sim |
+| Qual foi o melhor resultado? | março |
+
+---
+
+# 6. Principais Visualizações
+
+## 6.1 Gráfico de Barras
+
+Usado para comparar categorias.
+
+### Exemplo
 
 | Produto | Vendas |
 |---|---|
@@ -200,15 +171,16 @@ Usado para comparar valores entre categorias.
 | Notebook | 300 |
 | Tablet | 150 |
 
-O gráfico mostrará qual produto vendeu mais.
+### Interpretação
+O celular foi o produto mais vendido.
 
 ---
 
-### 4.2 Gráfico de Linhas
+## 6.2 Gráfico de Linhas
 
-Usado para visualizar evolução ao longo do tempo.
+Usado para mostrar evolução ao longo do tempo.
 
-#### Exemplo
+### Exemplo
 
 | Mês | Vendas |
 |---|---|
@@ -216,15 +188,16 @@ Usado para visualizar evolução ao longo do tempo.
 | Fevereiro | 150 |
 | Março | 220 |
 
-O gráfico mostrará crescimento contínuo nas vendas.
+### Interpretação
+As vendas cresceram continuamente.
 
 ---
 
-### 4.3 Gráfico de Pizza
+## 6.3 Gráfico de Pizza
 
 Usado para representar proporções.
 
-#### Exemplo
+### Exemplo
 
 | Setor | Percentual |
 |---|---|
@@ -232,114 +205,93 @@ Usado para representar proporções.
 | RH | 20% |
 | TI | 40% |
 
-O gráfico mostrará a participação de cada setor.
+### Interpretação
+Marketing e TI possuem maior participação.
 
 ---
 
-### 4.4 Tabelas
+# 7. Exemplo Prático
 
-Utilizadas para detalhar informações.
+Uma plataforma de streaming registra:
+- quantidade de acessos
+- filmes mais assistidos
+- horários de pico
+- tempo médio assistido
 
-#### Exemplo
+## Dados coletados
 
-| Aluno | Nota |
+| Dia | Acessos |
 |---|---|
-| Ana | 9,0 |
-| Carlos | 7,5 |
-| Pedro | 8,0 |
+| Segunda | 12.000 |
+| Terça | 15.000 |
+| Sexta | 28.000 |
+
+| Categoria | Visualizações |
+|---|---|
+| Ação | 18.000 |
+| Comédia | 12.000 |
+| Terror | 9.000 |
+
+## Informações obtidas
+- sexta-feira possui mais acessos
+- filmes de ação são mais populares
+- período noturno possui maior audiência
+
+## Possíveis decisões
+- reforçar servidores à noite
+- recomendar filmes de ação
+- criar promoções no fim de semana
 
 ---
 
-## 5. Exemplo Prático
+# 8. Vantagens
 
-Um serviço de reservas de voos registra diariamente:
-
-- quantidade de passagens vendidas
-- cancelamentos
-- destinos mais procurados
-- horários de maior movimento
-
-Após analisar os dados, a empresa percebe que:
-
-- dezembro possui mais reservas
-- voos para praias aumentam no verão
-- manhã possui maior quantidade de embarques
-- segunda-feira possui mais cancelamentos
-
-Todas essas informações são resultados da análise descritiva.
+| Vantagem | Benefício |
+|---|---|
+| Fácil interpretação | compreensão rápida |
+| Organização dos dados | informações estruturadas |
+| Identificação de padrões | percepção de tendências |
+| Apoio à decisão | decisões baseadas em dados |
+| Monitoramento | acompanhamento de indicadores |
 
 ---
 
-## 6. Vantagens
+# 9. Limitações
 
-### 6.1 Fácil Interpretação
+| Limitação | Explicação |
+|---|---|
+| Não explica causas | mostra o problema, mas não o motivo |
+| Não prevê o futuro | utiliza dados passados |
+| Não toma decisões | depende de interpretação humana |
 
-#### Exemplo
+### Exemplo
 
-Gráficos facilitam a compreensão rápida das informações.
+| Mês | Vendas |
+|---|---|
+| Janeiro | 500 |
+| Fevereiro | 300 |
 
----
-
-### 6.2 Ajuda na Tomada de Decisão
-
-#### Exemplo
-
-Uma empresa aumenta o estoque após perceber crescimento nas vendas.
-
----
-
-### 6.3 Identificação de Tendências
-
-#### Exemplo
-
-Uma escola percebe queda nas notas em determinada disciplina.
+A análise mostra queda nas vendas, mas não explica sua causa.
 
 ---
 
-### 6.4 Organização de Grandes Volumes de Dados
+# 10. Resumo
 
-#### Exemplo
+| Elemento | Função |
+|---|---|
+| Tabelas | organizar |
+| Gráficos | visualizar |
+| Indicadores | medir |
+| Relatórios | resumir |
+| Dashboards | monitorar |
 
-Milhares de registros são transformados em relatórios resumidos.
+## A análise descritiva:
+- mostra o que aconteceu
+- organiza dados
+- facilita interpretações
+- identifica tendências
+- apoia decisões
 
----
-
-### 6.5 Monitoramento de Indicadores
-
-#### Exemplo
-
-Uma empresa acompanha diariamente seu faturamento.
-
----
-
-## 7. Limitações
-
-A análise descritiva:
-
-- não explica por que algo aconteceu
-- não prevê o futuro
-- não gera soluções automáticas
-
----
-
-### 7.1 Não Explica as Causas
-
-#### Exemplo
-
-A análise mostra queda nas vendas, mas não explica o motivo.
-
----
-
-### 7.2 Não Prevê o Futuro
-
-#### Exemplo
-
-Ela mostra vendas passadas, mas não garante vendas futuras.
-
----
-
-### 7.3 Não Toma Decisões Sozinha
-
-#### Exemplo
-
-O gestor precisa interpretar os dados para agir.
+> Fontes:
+> https://aws.amazon.com/pt/what-is/data-science/
+> https://www.matera.com/br/blog/analise-descritiva/
