@@ -1,128 +1,165 @@
-# Atividade — Análise de Dados do IBGE: Ponta Grossa (PR)
+# Atividade - Análise Descritiva
+
+Concorrência de Cursos em Cotas Públicas UEPG/UTPFR-PG (2020–2025)
+
+---
 
 ## Objetivo
 
-Desenvolver habilidades de interpretação de dados, análise descritiva e leitura de indicadores utilizando informações oficiais do IBGE sobre a cidade de Ponta Grossa (PR).
----
+Desenvolver um **WEBSITE** para apresentar uma análise descritiva utilizando dados reais de **CONCORRÊNCIA EM COTAS PÚBLICAS**.
 
-## Instruções
-
-1. Acesse o portal do IBGE no link abaixo.
-2. Utilize os dados disponíveis no panorama da cidade para responder às questões.
-3. Leia atentamente os indicadores apresentados.
-4. Responda com base nas informações encontradas no site.
-
-Portal do IBGE:
-
-> Link: https://cidades.ibge.gov.br/brasil/pr/ponta-grossa
+O website deverá conter:
+- 1 gráfico de linha;
+- 1 tabela de dados;
+- respostas das questões propostas.
 
 ---
 
-# Parte 1 — Interpretação de Dados
+## Tecnologias Obrigatórias
 
-## 1.
+- HTML
+- CSS (Bootstrap)
+- JavaScript
+- Chart.js
 
-Qual é a população estimada de Ponta Grossa?
-
----
-
-## 2.
-
-Qual é a área territorial do município?
-
----
-
-## 3.
-
-O que significa densidade demográfica?
-
-Explique com suas palavras.
+### Referências
+- https://getbootstrap.com/
+- https://www.chartjs.org/
+- https://pages.github.com/
 
 ---
 
-## 4.
+## Desenvolvimento
 
-Qual indicador apresentado no site está relacionado à educação?
-
----
-
-## 5.
-
-O que o indicador "PIB per capita" representa?
-
----
-
-## 6.
-
-Qual é o valor do IDHM de Ponta Grossa?
+Pesquisar dados reais de **5 cursos** entre os anos:
+- 2020
+- 2021
+- 2022
+- 2023
+- 2024
+- 2025
 
 ---
 
-# Parte 2 — Análise Descritiva
+## Gráfico Obrigatório
 
-## 7.
+### Tipo
+Gráfico de Linha (Line Chart)
 
-Cite dois indicadores apresentados pelo IBGE sobre Ponta Grossa.
+### Estrutura
+- Eixo X:
+  - anos (2020–2025)
+- Eixo Y:
+  - candidatos por vaga
+- Linhas:
+  - uma linha para cada curso
 
----
-
-## 8.
-
-Explique como a análise descritiva ajuda a compreender os dados de uma cidade.
-
----
-
-## 9.
-
-Qual indicador você considera mais importante para avaliar a qualidade de vida da população?
-
-Justifique sua resposta.
-
----
-
-## 10.
-
-O site apresenta informações sobre:
-
-a) população  
-b) educação  
-c) economia  
-d) todas as alternativas anteriores  
+### Requisitos
+- título;
+- legenda;
+- identificação dos eixos;
+- cores diferentes.
 
 ---
 
-# Parte 3 — Construção de Gráficos
+## Tabela Obrigatória
 
-## 11.
+| Ano | Curso | Inscritos | Vagas | Candidatos/Vaga | Nota Mínima | Salário Médio |
+|---|---|---|---|---|---|---|
 
-Escolha três indicadores do site e construa um gráfico de barras.
-
----
-
-## 12.
-
-Escolha um indicador relacionado à população e represente-o em uma tabela.
-
----
-
-# Parte 4 — Reflexão
-
-## 13.
-
-Por que pesquisas estatísticas realizadas pelo IBGE são importantes para a sociedade?
+> Observação:
+> 
+> O dado “Salário Médio” pode ser pesquisado em sites e portais da internet.
+> 
+> A fonte utilizada deve ser informada.
 
 ---
 
-## 14.
+## Questões para Análise
 
-Cite dois exemplos de decisões que a prefeitura pode tomar utilizando dados estatísticos da cidade.
+1. Qual curso apresentou maior concorrência?
+2. Qual curso apresentou menor concorrência?
+3. Qual curso apresentou maior crescimento?
+4. Houve queda de concorrência em algum curso?
+5. Qual curso foi mais estável?
+6. Qual ano teve maior concorrência média?
+7. Existe relação entre concorrência e nota mínima?
+8. Quais outras conclusões (insights) podem ser obtidas?
 
 ---
 
-# Desafio
+## Estrutura do Projeto
 
-Pesquise outro indicador disponível no portal do IBGE sobre Ponta Grossa e explique:
+```text
+/projeto
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
-- o que ele representa
-- por que ele é importante
-- como ele pode auxiliar na tomada de decisão
+> Observação:
+>
+> A estrutura acima é apenas um exemplo.
+>
+> O grupo poderá utilizar outras formas de organização do projeto.
+
+---
+
+## Publicação
+
+Publicar o website no GitHub Pages.
+
+### Entregar
+- link do GitHub;
+- link do GitHub Pages.
+
+---
+
+| Critério | Pontos |
+|---|---|
+| Apresentação dos dados | 3,0 |
+| Análise dos dados | 2,0 |
+| Desenvolvimento | 3,0 |
+| Organização | 2,0 |
+
+> Observação:
+>
+> A publicação do website no GitHub Pages é obrigatória.
+
+---
+
+## Checklist da Atividade
+
+| Item | Check |
+|---|---|
+| Desenvolvimento do website |  |
+| Uso de HTML |  |
+| Uso de CSS (Bootstrap) |  |
+| Uso de JavaScript |  |
+| Uso do Chart.js |  |
+| Pesquisa de dados reais |  |
+| Dados entre 2020–2025 |  |
+| Dados de 5 cursos |  |
+| Gráfico de linha implementado |  |
+| Eixo X configurado corretamente |  |
+| Eixo Y configurado corretamente |  |
+| Uma linha para cada curso |  |
+| Título no gráfico |  |
+| Legenda no gráfico |  |
+| Identificação dos eixos |  |
+| Tabela implementada |  |
+| Dados de inscritos |  |
+| Dados de vagas |  |
+| Dados de candidatos/vaga |  |
+| Nota mínima adicionada |  |
+| Salário médio adicionado |  |
+| Fonte do salário médio informada |  |
+| Respostas das questões |  |
+| Organização visual do website |  |
+| README.md criado |  |
+| Projeto publicado no GitHub |  |
+| Projeto publicado no GitHub Pages |  |
+| Link do GitHub entregue |  |
+| Link do GitHub Pages entregue |  |
