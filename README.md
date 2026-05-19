@@ -13,6 +13,7 @@
 |----------------------------------------|----------------------------------------------------------------------|
 | Ciência de Dados: Introdução           | [Acessar](https://aws.amazon.com/pt/what-is/data-science/)           |
 | Análise Descritiva                     | [Acessar](https://github.com/profchauchuty/cepk-3dsb-ciencia-de-dados/blob/main/files/analise-descritiva.md) |
+| Avaliação I - Análise Descritiva       | [Acessar](https://github.com/profchauchuty/cepk-3dsb-ciencia-de-dados/blob/main/files/av1-analise-descritiva.md) |
 | Análise Diagnóstica                    |                                                                      |
 | Análise Preditiva                      |                                                                      |
 | Análise Pres                           |                                                                      |
