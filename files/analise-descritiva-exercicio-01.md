@@ -1,4 +1,4 @@
-# Atividade - Análise Descritiva
+# Atividade (AV1) - Análise Descritiva
 
 Concorrência de Cursos em Cotas Públicas UEPG/UTPFR-PG (2020–2025)
 
