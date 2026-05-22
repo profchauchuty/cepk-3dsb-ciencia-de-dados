@@ -68,7 +68,7 @@ Gráfico de Linha (Line Chart)
 
 ## Tabela Obrigatória
 
-| Ano | Curso | Inscritos | Vagas | Candidatos/Vaga | Nota Mínima | Salário Médio |
+| Ano | Curso | Candidatos | Vagas | Candidatos/Vaga | Nota Mínima | Salário Médio |
 |---|---|---|---|---|---|---|
 
 > Observação:
