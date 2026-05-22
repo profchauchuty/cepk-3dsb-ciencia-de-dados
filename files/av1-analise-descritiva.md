@@ -31,7 +31,7 @@ O website deverá conter:
 
 ## Desenvolvimento
 
-Pesquisar dados reais de **5 cursos** entre os anos:
+Pesquisar dados reais de **6 cursos** entre os anos:
 - 2016
 - 2017
 - 2018
