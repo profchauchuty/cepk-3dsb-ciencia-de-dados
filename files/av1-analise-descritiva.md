@@ -52,7 +52,7 @@ Gráfico de Linha (Line Chart)
 
 ### Estrutura
 - Eixo X:
-  - anos (2020–2025)
+  - anos (2016–2025)
 - Eixo Y:
   - candidatos por vaga
 - Linhas:
