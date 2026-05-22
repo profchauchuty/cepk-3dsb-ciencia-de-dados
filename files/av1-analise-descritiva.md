@@ -144,7 +144,7 @@ Publicar o website no GitHub Pages.
 | Uso de JavaScript |  |
 | Uso do Chart.js |  |
 | Pesquisa de dados reais |  |
-| Dados entre 2020–2025 |  |
+| Dados entre 2016–2025 |  |
 | Dados de 5 cursos |  |
 | Gráfico de linha implementado |  |
 | Eixo X configurado corretamente |  |
