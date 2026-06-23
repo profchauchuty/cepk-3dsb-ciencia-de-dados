@@ -1,299 +1,287 @@
-# Análise Descritiva
+# Análise Diagnóstica
 
 ## 1. Conceito
 
-A **análise descritiva** analisa dados para gerar insights sobre **o que aconteceu** ou **o que está acontecendo** em determinado contexto.
+A **Análise Diagnóstica** é uma abordagem que busca identificar **por que algo aconteceu** com base em dados históricos.
 
-Seu foco é transformar dados brutos em informações compreensíveis, permitindo identificar:
-- padrões
-- tendências
-- comportamentos
-- aumentos e quedas
-- comparações entre períodos
+Seu foco é aprofundar a análise descritiva, investigando **causas, relações e fatores que influenciaram um resultado**.
 
 Ela normalmente utiliza:
-- tabelas
-- gráficos
-- dashboards
-- relatórios
-- indicadores
+- cruzamento de dados
+- correlação entre variáveis
+- filtros e segmentações
+- análise comparativa
+- investigação de padrões
 
 ---
 
 ## 2. Exemplo
 
-Um serviço de reservas de voos registra diariamente:
+Uma loja virtual percebe uma queda nas vendas no mês de abril.
 
-| Data | Reservas | Cancelamentos |
-|---|---|---|
-| 01/03 | 120 | 5 |
-| 02/03 | 180 | 7 |
-| 03/03 | 95 | 12 |
-| ... | ... | ... |
+| Mês | Vendas |
+|---|---|
+| Março | 50.000 |
+| Abril | 32.000 |
 
-Após analisar os dados, a empresa identifica:
-- picos de reservas em dezembro
-- horários com maior movimento
-- meses de maior desempenho
-- períodos com mais cancelamentos
+Após investigação, a empresa identifica:
+- redução de campanhas de marketing
+- aumento no preço de frete
+- menos tráfego no site
+- falha em anúncios pagos
 
-Nesse caso, a empresa está realizando uma análise descritiva.
+Nesse caso, a empresa está realizando uma **análise diagnóstica**, pois busca entender o motivo da queda.
 
 ---
 
-# 3. Objetivos
+## 3. Objetivos
 
 | Objetivo | Exemplo |
 |---|---|
-| Resumir dados | calcular médias e totais |
-| Organizar informações | criar tabelas e gráficos |
-| Facilitar interpretação | visualizar crescimento de vendas |
-| Identificar tendências | perceber aumento de clientes |
-| Apoiar decisões | aumentar estoque de produtos |
+| Identificar causas | entender por que vendas caíram |
+| Encontrar correlações | relação entre preço e demanda |
+| Detectar anomalias | pico incomum de cancelamentos |
+| Analisar comportamento | mudança no perfil do cliente |
+| Explicar resultados | motivo de aumento ou queda |
 
 ---
 
-## 3.1 Resumir Dados
+## 3.1 Identificar Causas
 
-Grandes quantidades de dados são transformadas em informações menores e mais úteis.
+Busca entender os fatores que geraram determinado resultado.
 
 ### Exemplo
 
 | Indicador | Resultado |
 |---|---|
-| Total vendido | R$ 800.000 |
-| Produto mais vendido | Notebook |
-| Média diária | R$ 26.600 |
+| Queda de vendas | -30% |
+
+### Causas identificadas
+- falta de anúncios
+- baixa no tráfego orgânico
 
 ---
 
-## 3.2 Organizar Informações
+## 3.2 Encontrar Correlações
 
-Os dados são estruturados visualmente.
+Analisa relações entre variáveis.
 
 ### Exemplo
 
-| Produto | Quantidade Vendida |
+| Publicidade | Vendas |
 |---|---|
-| Notebook | 120 |
-| Mouse | 340 |
-| Teclado | 210 |
-
----
-
-## 3.3 Facilitar a Interpretação
-
-A visualização dos dados torna a análise mais simples.
-
-### Exemplo
-
-| Mês | Vendas |
-|---|---|
-| Janeiro | 120 |
-| Fevereiro | 150 |
-| Março | 220 |
-
-Ao transformar esses dados em um gráfico de linhas, fica mais fácil perceber o crescimento das vendas.
-
----
-
-## 3.4 Identificar Tendências
-
-Permite observar padrões ao longo do tempo.
-
-### Exemplo
-
-| Mês | Clientes |
-|---|---|
-| Janeiro | 300 |
-| Fevereiro | 320 |
-| Março | 450 |
-
-### Tendência observada
-A quantidade de clientes aumentou continuamente.
-
----
-
-## 3.5 Apoiar Tomadas de Decisão
-
-As informações auxiliam empresas e gestores.
-
-### Exemplo
-
-| Produto | Vendas |
-|---|---|
-| Produto A | 500 |
-| Produto B | 40 |
-
-### Decisão
-- aumentar estoque do Produto A
-- reduzir investimento no Produto B
-
----
-
-# 4. Recursos Utilizados
-
-| Recurso | Finalidade |
-|---|---|
-| Tabelas | organizar dados |
-| Relatórios | resumir informações |
-| Dashboards | acompanhar indicadores |
-| Indicadores | medir desempenho |
-| Gráficos | facilitar análise visual |
-
----
-
-# 5. Perguntas Respondidas
-
-A análise descritiva responde perguntas como:
-
-| Pergunta | Resposta possível |
-|---|---|
-| O que aconteceu? | houve queda nas vendas |
-| Quanto aconteceu? | 1.200 produtos vendidos |
-| Quando aconteceu? | em dezembro |
-| Houve crescimento? | sim |
-| Qual foi o melhor resultado? | março |
-
----
-
-# 6. Principais Visualizações
-
-## 6.1 Gráfico de Barras
-
-Usado para comparar categorias.
-
-### Exemplo
-
-| Produto | Vendas |
-|---|---|
-| Celular | 500 |
-| Notebook | 300 |
-| Tablet | 150 |
+| Alta | Alta |
+| Baixa | Baixa |
 
 ### Interpretação
-O celular foi o produto mais vendido.
+Existe relação direta entre investimento em publicidade e vendas.
 
 ---
 
-## 6.2 Gráfico de Linhas
+## 3.3 Detectar Anomalias
 
-Usado para mostrar evolução ao longo do tempo.
+Identifica comportamentos fora do padrão.
 
 ### Exemplo
-
-| Mês | Vendas |
-|---|---|
-| Janeiro | 100 |
-| Fevereiro | 150 |
-| Março | 220 |
-
-### Interpretação
-As vendas cresceram continuamente.
-
----
-
-## 6.3 Gráfico de Pizza
-
-Usado para representar proporções.
-
-### Exemplo
-
-| Setor | Percentual |
-|---|---|
-| Marketing | 40% |
-| RH | 20% |
-| TI | 40% |
-
-### Interpretação
-Marketing e TI possuem maior participação.
-
----
-
-# 7. Exemplo Prático
-
-Uma plataforma de streaming registra:
-- quantidade de acessos
-- filmes mais assistidos
-- horários de pico
-- tempo médio assistido
-
-## Dados coletados
 
 | Dia | Acessos |
 |---|---|
-| Segunda | 12.000 |
-| Terça | 15.000 |
-| Sexta | 28.000 |
+| Segunda | 10.000 |
+| Terça | 9.500 |
+| Quarta | 35.000 |
 
-| Categoria | Visualizações |
-|---|---|
-| Ação | 18.000 |
-| Comédia | 12.000 |
-| Terror | 9.000 |
-
-## Informações obtidas
-- sexta-feira possui mais acessos
-- filmes de ação são mais populares
-- período noturno possui maior audiência
-
-## Possíveis decisões
-- reforçar servidores à noite
-- recomendar filmes de ação
-- criar promoções no fim de semana
+### Interpretação
+Quarta-feira apresenta um pico incomum que precisa ser investigado.
 
 ---
 
-# 8. Vantagens
+## 3.4 Analisar Comportamentos
+
+Estuda mudanças no comportamento do usuário.
+
+### Exemplo
+
+| Período | Tipo de compra |
+|---|---|
+| Antes | Produtos físicos |
+| Depois | Produtos digitais |
+
+### Interpretação
+Mudança de preferência do consumidor.
+
+---
+
+## 3.5 Explicar Resultados
+
+Ajuda a justificar variações em indicadores.
+
+### Exemplo
+
+| Mês | Satisfação |
+|---|---|
+| Maio | 85% |
+| Junho | 70% |
+
+### Explicação possível
+- aumento no tempo de entrega
+- falhas no atendimento
+
+---
+
+## 4. Recursos Utilizados
+
+| Recurso | Finalidade |
+|---|---|
+| SQL e consultas | cruzamento de dados |
+| BI (Power BI, Tableau) | análise visual |
+| Estatística | correlações |
+| Segmentação | análise por grupo |
+| Dashboards | investigação de métricas |
+
+---
+
+## 5. Perguntas Respondidas
+
+A análise diagnóstica responde perguntas como:
+
+| Pergunta | Resposta possível |
+|---|---|
+| Por que aconteceu? | queda por falta de anúncios |
+| O que causou isso? | aumento de preços |
+| Existe relação entre fatores? | sim, entre preço e demanda |
+| Qual variável influenciou mais? | marketing |
+| O que mudou no comportamento? | preferência do cliente |
+
+---
+
+## 6. Principais Técnicas de Análise
+
+## 6.1 Análise de Correlação
+
+Usada para identificar relação entre variáveis.
+
+### Exemplo
+
+| Investimento em marketing | Vendas |
+|---|---|
+| Alto | Alto |
+| Baixo | Baixo |
+
+### Interpretação
+Existe correlação positiva.
+
+---
+
+## 6.2 Análise de Segmentação
+
+Divide os dados em grupos.
+
+### Exemplo
+
+| Segmento | Taxa de cancelamento |
+|---|---|
+| Novos clientes | 20% |
+| Clientes antigos | 5% |
+
+### Interpretação
+Novos clientes cancelam mais.
+
+---
+
+## 6.3 Análise de Comparação
+
+Compara períodos ou grupos.
+
+### Exemplo
+
+| Período | Vendas |
+|---|---|
+| Antes da campanha | 40.000 |
+| Depois da campanha | 60.000 |
+
+### Interpretação
+A campanha influenciou o aumento.
+
+---
+
+## 7. Exemplo Prático
+
+Uma plataforma de e-commerce percebe aumento no abandono de carrinho.
+
+## Dados coletados
+
+| Fator | Valor |
+|---|---|
+| Abandono de carrinho | 65% |
+| Tempo de carregamento | 6s |
+| Frete médio | Alto |
+| Cupom ativo | Não |
+
+## Análise diagnóstica
+
+- páginas lentas aumentam abandono
+- frete alto reduz conversão
+- ausência de cupom diminui incentivo de compra
+
+## Possíveis decisões
+- otimizar desempenho do site
+- reduzir custo de frete
+- ativar cupons promocionais
+
+---
+
+## 8. Vantagens
 
 | Vantagem | Benefício |
 |---|---|
-| Fácil interpretação | compreensão rápida |
-| Organização dos dados | informações estruturadas |
-| Identificação de padrões | percepção de tendências |
-| Apoio à decisão | decisões baseadas em dados |
-| Monitoramento | acompanhamento de indicadores |
+| Identifica causas | explica problemas |
+| Melhora decisões | ações mais precisas |
+| Detecta padrões | entendimento profundo |
+| Reduz erros | evita decisões intuitivas |
+| Apoia estratégias | planejamento mais eficiente |
 
 ---
 
-# 9. Limitações
+## 9. Limitações
 
 | Limitação | Explicação |
 |---|---|
-| Não explica causas | mostra o problema, mas não o motivo |
-| Não prevê o futuro | utiliza dados passados |
-| Não toma decisões | depende de interpretação humana |
+| Não prevê o futuro | foca no passado |
+| Pode ser complexa | exige muitos dados |
+| Depende da qualidade dos dados | dados ruins geram análises erradas |
 
 ### Exemplo
 
 | Mês | Vendas |
 |---|---|
-| Janeiro | 500 |
-| Fevereiro | 300 |
+| Janeiro | 10.000 |
+| Fevereiro | 7.000 |
 
-A análise mostra queda nas vendas, mas não explica sua causa.
+A análise pode indicar queda, mas se os dados estiverem incompletos, a conclusão pode ser incorreta.
 
 ---
 
-# 10. Resumo
+## 10. Resumo
 
 | Elemento | Função |
 |---|---|
-| Tabelas | organizar |
-| Gráficos | visualizar |
-| Indicadores | medir |
-| Relatórios | resumir |
-| Dashboards | monitorar |
+| Correlação | relacionar variáveis |
+| Segmentação | dividir grupos |
+| Comparação | analisar diferenças |
+| Estatística | validar hipóteses |
+| BI | visualizar causas |
 
-## A análise descritiva:
-- mostra o que aconteceu
-- organiza dados
-- facilita interpretações
-- identifica tendências
-- apoia decisões
+## A análise diagnóstica:
+- explica por que algo aconteceu
+- identifica causas e relações
+- investiga padrões e anomalias
+- complementa a análise descritiva
+- apoia decisões estratégicas
+
+---
 
 > Fontes:
 > 
-> https://aws.amazon.com/pt/what-is/data-science/
+> https://aws.amazon.com/pt/what-is/data-analytics/
 > 
-> https://www.matera.com/br/blog/analise-descritiva/
+> https://www.ibm.com/br-pt/topics/diagnostic-analytics
