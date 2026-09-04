@@ -70,7 +70,7 @@ O repositório do projeto deve obrigatoriamente conter um arquivo `README.md` na
 
 ---
 
-## 📝 Listas de Tarefas por Eixo
+## Listas de Tarefas por Eixo
 
 ### 1. Banco de Dados e Documentação
 
@@ -104,3 +104,19 @@ O repositório do projeto deve obrigatoriamente conter um arquivo `README.md` na
 | **3.4. Validação de Formulários Mobile** | Integrar o esquema de validação do `Yup` aos formulários das telas. |  |
 | **3.5. Integração com a API Backend** | Configurar as requisições HTTP para a API REST na camada `src/services/` (utilizando Axios ou Fetch). |  |
 | **3.6. Teste de Fluxo End-to-End** | Validar o ciclo completo funcional: formulário mobile $\rightarrow$ envio à API $\rightarrow$ validação backend $\rightarrow$ persistência no banco. |  |
+
+## Tecnologias Utilizadas
+
+| Título | Descrição | Link |
+| :--- | :--- | :--- |
+| **Node.js** | Ambiente de execução JavaScript no lado do servidor para construção de aplicações escaláveis. | https://nodejs.org/ |
+| **Express** | Framework web minimalista e flexível para Node.js para criação de rotas e APIs RESTful. | https://expressjs.com/ |
+| **MySQL** | Sistema de Gerenciamento de Banco de Dados Relacional (SGBD) para persistência de dados. | https://www.mysql.com/ |
+| **mysql2** | Driver do MySQL para Node.js com foco em performance e suporte a *Prepared Statements*. | https://github.com/sidorares/node-mysql2 |
+| **express-validator** | Conjunto de middlewares para validação e sanitização de requisições HTTP no Express. | https://express-validator.github.io/docs/ |
+| **React Native** | Framework para desenvolvimento de aplicações móveis nativas usando React e JavaScript. | https://reactnative.dev/ |
+| **React Navigation** | Biblioteca para gerenciamento de roteamento e navegação em aplicativos React Native. | https://reactnavigation.org/ |
+| **React Native Paper** | Biblioteca de componentes visuais baseada nas diretrizes do Material Design. | https://reactnativepaper.com/ |
+| **Yup** | Construtor de esquemas baseados em objetos para validação de dados e formulários. | https://github.com/jquense/yup |
+
+---
