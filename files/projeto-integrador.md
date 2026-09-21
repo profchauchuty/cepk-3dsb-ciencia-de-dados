@@ -15,6 +15,7 @@ O repositório do projeto deve obrigatoriamente conter um arquivo `README.md` na
 * **Modelagem de Dados:**
   * Imagem do Modelo Entidade-Relacionamento (DER).
   * Imagem do Modelo Lógico.
+* **Instruções de Instalação e Execução do Software**
 
 ### 2. Banco de Dados e Migrations
 * **Modelagem:** Entregar o Modelo Entidade-Relacionamento (DER) e o Esquema Lógico detalhado (PKs, FKs e tipos de dados).
