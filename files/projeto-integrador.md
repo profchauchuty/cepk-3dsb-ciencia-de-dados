@@ -45,6 +45,7 @@ O repositório do projeto deve obrigatoriamente conter um arquivo `README.md` na
   ├── middlewares/
   ├── utils/
   ├── assets/
+  ├── scripts/
   └── app.js
   ```
 * **Regras & Conexão:** Todas as rotas (CRUD) devem acessar o banco de dados via `services` e `controllers`.
