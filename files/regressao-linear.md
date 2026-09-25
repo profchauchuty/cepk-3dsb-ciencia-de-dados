@@ -244,7 +244,7 @@ ou simplesmente:
 
 ---
 
-# 📝 Exercício — Regressão Linear
+# Exercício — Regressão Linear
 
 Pesquise as **notas mínimas dos últimos 10 anos** de um curso da **UEPG** e utilize a **Regressão Linear** para identificar a tendência das notas.
 
