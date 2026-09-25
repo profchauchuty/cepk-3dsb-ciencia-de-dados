@@ -273,3 +273,4 @@ Pesquise as **notas mínimas dos últimos 10 anos** de um curso da **UEPG** e ut
 - Valores de `b₀` e `b₁`;
 - Equação da Regressão Linear;
 - Previsão para o próximo ano.
+- Entrega em Papel A4
