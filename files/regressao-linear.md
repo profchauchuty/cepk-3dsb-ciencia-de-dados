@@ -1,4 +1,4 @@
-# 📈 Regressão Linear
+# Regressão Linear
 
 ## 1. O que é?
 
