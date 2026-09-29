@@ -1,8 +1,20 @@
 # Regressão Linear
 
-## 1. O que é?
+## 1. Contexto Histórico
 
-A **Regressão Linear** é uma técnica de Machine Learning que aprende a relação entre valores numéricos para realizar uma previsão.
+No início do século XIX, matemáticos como **Adrien-Marie Legendre** e **Carl Friedrich Gauss** desenvolveram métodos para analisar dados e encontrar relações matemáticas entre observações.
+
+Um desses métodos foi o **Método dos Mínimos Quadrados**, utilizado para encontrar uma reta que melhor representasse um conjunto de dados.
+
+Posteriormente, **Francis Galton** contribuiu para o desenvolvimento do conceito de **regressão**.
+
+Atualmente, a Regressão Linear é utilizada na **Estatística, Ciência de Dados e Machine Learning** para analisar relações entre variáveis e realizar previsões.
+
+---
+
+## 2. O que é?
+
+A Regressão Linear é uma técnica de Machine Learning que aprende a relação entre valores numéricos para realizar uma previsão.
 
 Por exemplo, podemos analisar a relação entre:
 
@@ -23,7 +35,7 @@ Fazer uma previsão
 
 ---
 
-## 2. Exemplos
+## 3. Exemplos
 
 ### Exemplo 1 — Relação Linear entre os Dados
 
@@ -37,7 +49,7 @@ Considere os seguintes dados de alunos:
 | Daniela | 4 | 7 |
 | Eduardo | 5 | 8 |
 
-Link: [Representação Gráfica](https://www.geogebra.org/m/f2djzxkd)
+Link: [Representação Gráfica](https://www.geogebra.org/calculator/fcpv6q3w)
 
 Nesse exemplo, conforme as horas de estudo aumentam, as notas também aumentam de forma regular.
 
@@ -62,26 +74,26 @@ Agora considere um conjunto de dados com seis alunos:
 | Eduardo | 4 | 9 |
 | Fernanda | 5 | 8 |
 
-Link: [Representação Gráfica](https://www.geogebra.org/m/vp9u9e9p)
+Link: [Representação Gráfica](https://www.geogebra.org/calculator/n2ax5r5c)
 
-Observe que existem **horas de estudo repetidas**, mas as notas são diferentes.
+Observe que existem horas de estudo repetidas, mas as notas são diferentes.
 
 Por exemplo:
 
 - Ana e Bruno estudaram `2` horas, mas obtiveram notas diferentes;
 - Daniela e Eduardo estudaram `4` horas, mas também obtiveram notas diferentes.
 
-Mesmo com essas variações, podemos observar uma **tendência geral de aumento das notas conforme aumentam as horas de estudo**.
+Mesmo com essas variações, podemos observar uma tendência geral de aumento das notas conforme aumentam as horas de estudo.
 
 A Regressão Linear procura encontrar uma reta que represente essa tendência geral.
 
 Os pontos não precisam estar exatamente sobre a reta.
 
-Portanto, mesmo quando existem valores repetidos de `X` e diferentes valores de `Y`, é possível encontrar uma **reta que represente a tendência dos dados**.
+Portanto, mesmo quando existem valores repetidos de `X` e diferentes valores de `Y`, é possível encontrar uma reta que represente a tendência dos dados.
 
 ---
 
-## 3. Equação da Regressão Linear
+## 4. Equação da Regressão Linear
 
 A equação é:
 
@@ -98,7 +110,7 @@ Onde:
 
 ---
 
-## 4. Exemplo de previsão
+## 5. Exemplo de previsão
 
 Considere a equação:
 
@@ -120,7 +132,7 @@ Portanto, para `x = 5`, o modelo prevê:
 
 ---
 
-## 5. Interpretando a inclinação
+## 6. Interpretando a inclinação
 
 Considere:
 
@@ -144,7 +156,7 @@ O valor `b₁ = 3` significa que, para cada aumento de `1` em `X`, o valor previ
 
 ---
 
-## 6. Regressão Linear e dados reais
+## 7. Regressão Linear e dados reais
 
 Em uma situação real, normalmente não recebemos a equação pronta.
 
@@ -158,7 +170,8 @@ Depois, a Regressão Linear encontra uma reta que representa a tendência desses
 Essa reta pode ser utilizada para realizar uma estimativa.
 
 ---
-## 7. Fórmulas
+
+## 8. Fórmulas
 
 Quando temos os dados de `X` e `Y`, podemos calcular matematicamente os coeficientes da reta:
 
@@ -166,8 +179,8 @@ Quando temos os dados de `X` e `Y`, podemos calcular matematicamente os coeficie
 
 Onde:
 
-- `b₀` → **coeficiente linear** (intercepto)
-- `b₁` → **coeficiente angular** (inclinação)
+- `b₀` → coeficiente linear (intercepto)
+- `b₁` → coeficiente angular (inclinação)
 
 ### Coeficiente angular — `b₁`
 
@@ -175,17 +188,13 @@ A fórmula é:
 
 `b₁ = Σ((xᵢ - x̄)(yᵢ - ȳ)) / Σ((xᵢ - x̄)²)`
 
-![](https://i.imgur.com/U2IuKbb.png)
-
-O coeficiente angular indica **quanto Y tende a variar quando X aumenta 1 unidade**.
+O coeficiente angular indica quanto Y tende a variar quando X aumenta 1 unidade.
 
 ### Coeficiente linear — `b₀`
 
 Depois de encontrar `b₁`, calculamos:
 
 `b₀ = ȳ - b₁x̄`
-
-![](https://i.imgur.com/VhqAFSu.png)
 
 Onde:
 
@@ -240,13 +249,13 @@ ou simplesmente:
 
 `ŷ = 3 + x`
 
-**Interpretação:** o coeficiente angular `b₁ = 1` indica que, a cada aumento de 1 unidade em `X`, o valor previsto de `Y` aumenta 1 unidade.
+Interpretação: o coeficiente angular `b₁ = 1` indica que, a cada aumento de 1 unidade em `X`, o valor previsto de `Y` aumenta 1 unidade.
 
 ---
 
 # Exercício — Regressão Linear
 
-Pesquise as **notas mínimas dos últimos 10 anos** de um curso da **UEPG** e utilize a **Regressão Linear** para identificar a tendência das notas.
+Pesquise as notas mínimas dos últimos 10 anos de um curso da UEPG e utilize a Regressão Linear para identificar a tendência das notas.
 
 ### Tarefa
 
@@ -259,9 +268,9 @@ Pesquise as **notas mínimas dos últimos 10 anos** de um curso da **UEPG** e ut
 
 3. Encontre a equação da Regressão Linear:
 
-   `ŷ = b₀ + b₁x`
+`ŷ = b₀ + b₁x`
 
-4. Utilize a equação para **estimar a nota mínima do próximo ano**.
+4. Utilize a equação para estimar a nota mínima do próximo ano.
 
 5. Apresente um gráfico com os dados e a reta de regressão.
 
