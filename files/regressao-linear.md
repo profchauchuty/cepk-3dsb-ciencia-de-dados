@@ -283,3 +283,44 @@ Pesquise as notas mínimas dos últimos 10 anos de um curso da UEPG e utilize a 
 - Equação da Regressão Linear;
 - Previsão para o próximo ano.
 - Entrega em Papel A4
+
+# Exercício 2 — Regressão Linear no Google Colab
+
+Utilizando os **mesmos dados coletados no Exercício 1**, desenvolva a Regressão Linear no **Google Colab** para verificar os resultados obtidos anteriormente.
+
+### Bibliotecas
+
+Utilize obrigatoriamente:
+
+- `NumPy`
+- `Pandas`
+- `Matplotlib`
+
+### Tarefa
+
+1. Crie um `DataFrame` com os dados de `ano` e `nota mínima` utilizados no Exercício 1.
+
+2. Utilize o **NumPy** para calcular a Regressão Linear.
+
+3. Apresente os valores de `b₀` e `b₁`.
+
+4. Apresente a equação da Regressão Linear:
+
+`ŷ = b₀ + b₁x`
+
+5. Utilize o modelo para estimar a **nota mínima do próximo ano**.
+
+6. Utilize o **Matplotlib** para gerar um gráfico contendo:
+   - os dados reais;
+   - a reta de regressão.
+
+7. Compare a previsão obtida no Google Colab com o resultado calculado no **Exercício 1**.
+
+### Entrega
+
+- Código desenvolvido no Google Colab;
+- Valores de `b₀` e `b₁`;
+- Equação da Regressão Linear;
+- Previsão para o próximo ano;
+- Gráfico com os dados e a reta de regressão;
+- **Link compartilhado do Google Colab** ou arquivo **`.ipynb`**.
